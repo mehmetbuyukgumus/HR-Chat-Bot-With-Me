@@ -1,5 +1,4 @@
-myvenv/
-myvenv
+myenv
 libs.txt
 .env
 content.py
