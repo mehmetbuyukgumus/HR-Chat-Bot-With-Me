@@ -1,7 +1,11 @@
 # This project is a chat bot where you can have HR interviews with me 24/7
 import streamlit as st
 from helpers import generate_response
-from content import content
+from dotenv import load_dotenv
+import os
+
+# Load the content
+content = os.getenv("content")
 
 # Massages list
 if "messages" not in st.session_state:
