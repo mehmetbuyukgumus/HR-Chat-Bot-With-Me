@@ -2,3 +2,4 @@ myenv
 myenv/
 libs.txt
 .env
+__pycache__
